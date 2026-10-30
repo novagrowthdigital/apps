@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IEP Goal Tracker Spreadsheet for Google Sheets &amp; Excel</title>
+<meta name="description" content="Log an IEP probe in one row and the goal's status, graph and progress-report sentence fill in. An 8-tab caseload tracker for Google Sheets and Excel.">
+<link rel="canonical" href="https://novagrowthdigital.github.io/apps/iep-goal-tracker/">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IEP Goal Tracker Spreadsheet for Google Sheets & Excel">
+<meta property="og:description" content="Goal data, IEP dates, service minutes and progress-report sentences in one 8-tab workbook.">
+<meta property="og:url" content="https://novagrowthdigital.github.io/apps/iep-goal-tracker/">
+<meta property="og:image" content="https://novagrowthdigital.github.io/apps/assets/img/iep-og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="/apps/assets/site.css">
+</head>
+<body>
+<header class="top"><nav aria-label="Site">
+<a class="home" href="https://www.etsy.com/shop/NovaGrowthDigital">Nova Growth Digital</a>
+<a href="/apps/school-counselor-caseload-tracker/">Counselor tracker</a>
+<a href="https://www.etsy.com/shop/NovaGrowthDigital">Etsy shop</a>
+</nav></header>
+
+<section class="hero"><div>
+<h1>IEP Goal Tracker: one spreadsheet for probe data, IEP dates and progress reports</h1>
+<p>For special education teachers and case managers. Log a probe in one row; the goal's status, its graph and a plain progress sentence fill in. Home shows the nearest IEP and re-evaluation dates and who is short on service minutes.</p>
+<a class="cta" href="https://www.etsy.com/listing/4604424979">See the IEP Goal Tracker on Etsy</a>
+<a class="cta alt" href="https://www.etsy.com/listing/4604096256">Dark mode edition</a>
+<p class="note">Digital download from our Etsy shop, $14.99 per edition (October 2026; Etsy shows the current price). Works in Google Sheets and Excel on a laptop or tablet.</p>
+</div></section>
+
+<main>
+<figure>
+<img src="/apps/assets/img/iep-home.webp" width="1200" height="900" alt="IEP tracker Home tab: counts of students, goals needing attention, IEP dates within 45 days and students short on minutes, then IEP and re-evaluation dates nearest first and goals to look at">
+<figcaption>Home: the counts, the nearest IEP and re-evaluation dates, and the goals to look at, on one screen.</figcaption>
+</figure>
+
+<h2>The problem: progress data lives in too many places</h2>
+<p>Probe sheets on a clipboard, IEP dates in a calendar, service minutes in another file, and a progress report you rebuild from scratch each grading period. Each one is fine alone. Together they mean copying the same numbers three times and checking dates by hand.</p>
+<p>This workbook keeps them together. You type each piece of data once, on the tab where it happens, and the summary tabs read from it. Nothing has to be copied between tabs.</p>
+
+<h2>How a typical week works</h2>
+<h3>Once, at the start</h3>
+<p>On <strong>Start Here</strong>, type your name and the day your week starts. Paste your roster into <strong>Caseload</strong> (initials or student IDs, grade, primary and secondary disability, annual IEP and re-evaluation dates, weekly service minutes). Add each goal on <strong>Goals</strong> with a baseline, a target, a unit and how many probes count as mastered.</p>
+
+<h3>During sessions</h3>
+<p>On <strong>Data Log</strong>, each probe is one row: date, student, goal number, then either correct out of trials (it works out the percent) or a score for goals measured in another unit, plus prompt level and a short note.</p>
+<figure>
+<img src="/apps/assets/img/iep-data-log.webp" width="1200" height="900" alt="Data Log tab: one row per probe with date, student, goal number, correct of trials or a score, prompt level and a short note" loading="lazy">
+<figcaption>Data Log: correct of trials or a score; the result and the goal's status fill in.</figcaption>
+</figure>
+<p>On <strong>Service Minutes</strong>, log each session with date, student, service, minutes and provider. Minutes this week, last week and over the last 4 weeks are compared with each student's weekly minutes from Caseload, and students who are short appear first on Home.</p>
+
+<h3>When you want to see a goal</h3>
+<p>On <strong>Goal Graph</strong>, pick a student and a goal number. It charts the last 12 probes, oldest first, with the mastery target line and a trend line.</p>
+<figure>
+<img src="/apps/assets/img/iep-goal-graph.webp" width="1200" height="900" alt="Goal Graph tab: a bar chart of the last 12 probes for one goal with a mastery target line and a trend line" loading="lazy">
+<figcaption>Goal Graph: last 12 probes, mastery target and trend for any student and goal.</figcaption>
+</figure>
+
+<h3>At progress report time</h3>
+<p>On <strong>Progress Report</strong>, pick a student and a date range. Each goal gets its number of probes, average, latest result, status today and one plain sentence you can copy into your report and then rewrite in your own words. The workbook organizes your data; you still write, edit and sign the report.</p>
+<figure>
+<img src="/apps/assets/img/iep-progress-report.webp" width="1200" height="900" alt="Progress Report tab: per goal, the probes, average, latest result, status today and a progress sentence to copy" loading="lazy">
+<figcaption>Progress Report: one sentence per goal to copy, then edit.</figcaption>
+</figure>
+
+<h2>What the 8 tabs do</h2>
+<table>
+<thead><tr><th scope="col">Tab</th><th scope="col">You enter</th><th scope="col">It fills in</th></tr></thead>
+<tbody>
+<tr><th scope="row">Start Here</th><td>Your name, week start, red and amber deadline windows, your own dropdown lists (goal areas, disabilities, services, prompt levels)</td><td>Setup steps and quick help</td></tr>
+<tr><th scope="row">Home</th><td>Nothing</td><td>Student and goal counts, IEP and re-evaluation dates nearest first, goals to look at, minutes short first</td></tr>
+<tr><th scope="row">Caseload</th><td>One row per student (up to 50)</td><td>Days to each IEP date with red and amber flags, goal count, a row check</td></tr>
+<tr><th scope="row">Goals</th><td>Goals 1 to 10 per student (up to 300)</td><td>Probe count, last-3 average, latest result, status</td></tr>
+<tr><th scope="row">Data Log</th><td>One row per probe (up to 2,000)</td><td>Percent from correct of trials</td></tr>
+<tr><th scope="row">Goal Graph</th><td>A student and a goal number</td><td>Chart of the last 12 probes with target and trend lines</td></tr>
+<tr><th scope="row">Progress Report</th><td>A student and a date range</td><td>Per-goal summary and a sentence to copy</td></tr>
+<tr><th scope="row">Service Minutes</th><td>One row per session (up to 1,200)</td><td>Minutes delivered vs required per week</td></tr>
+</tbody>
+</table>
+<p>Need more rows? Insert rows above the last line of a tab.</p>
+<figure>
+<img src="/apps/assets/img/iep-caseload.webp" width="1200" height="900" alt="Caseload tab: one row per student by initials or ID with primary and secondary disability and days to IEP and re-evaluation dates" loading="lazy">
+<figcaption>Caseload: initials or an ID per student, primary and secondary disability, days to each date.</figcaption>
+</figure>
+
+<h2>How "on track" is decided</h2>
+<p>A goal is on track when its last 3 probes average at or above a straight line from the baseline to the target. You set how many probes count toward mastery on each goal. The red and amber deadline windows are yours to set on Start Here; check them against your district's own timelines.</p>
+
+<figure>
+<img src="/apps/assets/img/iep-service-minutes.webp" width="1200" height="900" alt="Service Minutes tab: sessions logged per student with minutes delivered versus required per week, short students first" loading="lazy">
+<figcaption>Service Minutes: delivered vs required per week; short students show first on Home.</figcaption>
+</figure>
+
+<div class="box">
+<h2>What it does not do</h2>
+<ul>
+<li>It is not a district IEP system and does not connect to one. It is a spreadsheet you keep in your own Google Drive or on your computer.</li>
+<li>It does not write IEPs or reports for you. It gives one plain sentence per goal as a starting point.</li>
+<li>It is not clinical, legal or eligibility advice.</li>
+<li>It has no name, birth date or address fields. Use initials or IDs, and store the file the way your district's data policy requires.</li>
+</ul>
+</div>
+
+<h2>What you receive</h2>
+<ul>
+<li>A digital download from Etsy. Nothing is shipped.</li>
+<li>The IEP Goal + Caseload Tracker workbook (.xlsx) in two copies: one blank, one with made-up practice entries so you can see it working.</li>
+<li>One edition per listing: Light or Dark mode, each sold separately.</li>
+</ul>
+<figure>
+<img src="/apps/assets/img/iep-eight-tabs.webp" width="1200" height="900" alt="Overview of the 8 tabs: Start Here, Home, Caseload, Goals, Data Log, Goal Graph, Progress Report and Service Minutes" loading="lazy">
+<figcaption>The 8 tabs in the workbook.</figcaption>
+</figure>
+
+<h2>Google Sheets or Excel</h2>
+<p>Both. For Google Sheets, upload the .xlsx file to your Google Drive and open it with Google Sheets. For Excel, open the .xlsx file and save your own copy. It is made for a laptop or a tablet screen. Formula cells ask before you type over them, and nothing is locked.</p>
+
+<h2>Questions before you buy</h2>
+<details><summary>Is student data private?</summary><p>The data stays in your own file; we never see it. Use initials or IDs, not full names. The note columns remind you not to type full names.</p></details>
+<details><summary>How many students and goals fit?</summary><p>50 students, 300 goals, 2,000 probes and 1,200 service sessions. Insert rows above the last line of a tab for more.</p></details>
+<details><summary>Can a student have more than one disability?</summary><p>Yes: each student has a primary and a secondary disability, picked from the IDEA categories in a list you can edit.</p></details>
+<details><summary>Can SLPs or resource teachers use it?</summary><p>Yes. It is built for special education teachers, case managers, resource and inclusion teachers and SLPs who track goals, IEP dates and service minutes for a caseload.</p></details>
+<details><summary>Does it write my progress report?</summary><p>It gives one plain sentence per goal to copy. You edit it in your own words and sign the report.</p></details>
+<details><summary>Is there sample data?</summary><p>Yes. One copy has made-up practice entries and one is blank.</p></details>
+<details><summary>Light or Dark?</summary><p>Same tabs and formulas; only the colors differ. <a href="https://www.etsy.com/listing/4604424979">Light edition</a> or <a href="https://www.etsy.com/listing/4604096256">Dark mode edition</a>.</p></details>
+
+<div class="endcta">
+<h2>Ready to see your caseload on one screen?</h2>
+<a class="cta" href="https://www.etsy.com/listing/4604424979">IEP Goal Tracker (Light) on Etsy</a>
+<a class="cta alt" href="https://www.etsy.com/listing/4604096256">Dark mode edition on Etsy</a>
+</div>
+
+<h2>Also for school teams</h2>
+<p>School counselors: the <a href="/apps/school-counselor-caseload-tracker/">School Counselor Caseload Tracker</a> logs sessions, referrals, parent contacts and 504 and IEP meeting dates in the same style.</p>
+</main>
+
+<footer><div>
+<p>Made by <a href="https://www.etsy.com/shop/NovaGrowthDigital">Nova Growth Digital</a>, an Etsy shop for spreadsheet trackers. Purchases, downloads and messages go through Etsy. This page sets no cookies and runs no tracking scripts.</p>
+<p>Google Sheets is a trademark of Google LLC. Excel is a trademark of Microsoft Corporation. This product is not made or endorsed by either company.</p>
+</div></footer>
+</body>
+</html>
